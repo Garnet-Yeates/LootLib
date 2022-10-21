@@ -44,4 +44,6 @@ Now that you have successfully referenced the `.dll` and also added LootLib as a
 using LootLib;
 ```
 
-to the top of whatever `.cs` file you want to use `LootExtensions` inside of and it should work. Check out the [wiki](https://github.com/Garnet-Yeates/LootLib/wiki) to see how to use the API. 
+to the top of whatever `.cs` file you want to use `LootExtensions` inside of and it should work. 
+
+Check out the [wiki](https://github.com/Garnet-Yeates/LootLib/wiki) to see how to use the API. 
