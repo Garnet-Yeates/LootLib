@@ -5,16 +5,16 @@ library will make your code much simpler, more flexible, compatible, and readabl
 to your development environment. This class adds dozens of extension methods to `ILoot` and `IItemDropRule`, as well as extensions to many sub clases of `IItemDropRule`. Check out
 the [wiki](https://github.com/Garnet-Yeates/LootLib/wiki) to see its use cases. 
 
-## How to reference LootLib in your project (Visual Studio 2022)
+# How to reference LootLib in your project (Visual Studio 2022)
 
-### Extracting the DLL
+## Extracting the DLL
 After downloading this mod from the steam workshop (or the in game mod browser), press 'workshop' in the tModLoader main menu and do the following steps:
 
 Click `Manage Mods`, then `?` on LootLib, then click `Extract`
 
 ![](extract-gif.gif)
 
-### Referencing the DLL in Visual Studio 2022
+## Referencing the DLL in Visual Studio 2022
 
 Right click `Dependencies` under your `.csproj`, choose `Add Project Reference`
 
@@ -28,7 +28,7 @@ Find Where `LootLib.dll` is extracted to and double-click it.
 
 ![](reference-img-3.png)
 
-### Registering LootLib as a Dependency for Your Mod
+## Registering LootLib as a Dependency for Your Mod
 
 Add the following line to your `build.txt`
 
@@ -36,7 +36,7 @@ Add the following line to your `build.txt`
 
 Doing this will make it so `LootLib` is downloaded automatically when someone downloads your mod (it will say "download with dependencies" when they hover over the download button)
 
-### Next Steps
+## Next Steps
 
 Now that you have successfully referenced the `.dll` and also added LootLib as a dependency in the `build.txt`, you should be able to use any of the extension methods provided by LootLib. Simply add
 
