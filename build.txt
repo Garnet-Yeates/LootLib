@@ -1,0 +1,3 @@
+displayName = Loot Lib (For Developers)
+author = Garnet
+version = 0.1
