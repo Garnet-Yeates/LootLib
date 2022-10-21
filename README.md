@@ -7,5 +7,8 @@ the [wiki](https://github.com/Garnet-Yeates/LootLib/wiki) to see its use cases.
 
 ## How to reference LootLib in your project (Visual Studio 2022)
 
-Do this later
+### Extracting The DLL
+After downloading this mod from the steam workshop (or the in game mod browser), press 'workshop' in the tModLoader main menu and do the following steps:
+
+![](https://i.gyazo.com/595b958a56d4e2e802a5589cfb64ad39.gif)
 
