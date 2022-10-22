@@ -1,4 +1,4 @@
-# LootLib
+# What Is LootLib
 
 LootLib is a library that makes it much easier to modify `NPCLoot` or `ItemLoot` in tModLoader. If you are developing a mod that will make many changes to vanilla loot, this
 library will make your code much simpler, more flexible, compatible, and readable. It adds one static class called `LootExtensions` 
